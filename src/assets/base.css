@@ -1,0 +1,12 @@
+:root {
+  /* --background-color: #111729; */
+  --background-color: #151c30;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
