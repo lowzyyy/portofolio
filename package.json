@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@fontsource-variable/plus-jakarta-sans": "^5.0.13",
+    "@phosphor-icons/vue": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },

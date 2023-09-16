@@ -1,5 +1,5 @@
 <template>
-  <section class="flex sm:gap-6 lg:justify-between items-center mb-16">
+  <section class="flex sm:gap-6 lg:justify-between items-center mb-12">
     <div>
       <h1 class="text-3xl xl:text-5xl mb-6 xs:mb-8 text-cyan-50 flex justify-between items-center">
         Hello, I'm Petar
@@ -9,11 +9,14 @@
           alt="Picture of me"
         />
       </h1>
-      <article class="lg:w-[500px] xl:w-[700px] text-cyan-100 animate-slideUp text-sm">
+      <article
+        class="lg:w-[500px] xl:w-[700px] 2xl:w-[800px] 3xl:w-[1000px] text-cyan-100 animate-slideUp 3xl:text-lg"
+      >
         <p class="mb-6">
-          <span class="font-bold text-blue-200 xs:text-lg">Web developer</span> based in Serbia
-          interested in building modern and innovative web applications with latest technologies. I
-          believe in lifelong learning and continuous improvement. Always trying to do better.
+          <span class="font-bold text-blue-200 xs:text-lg 3xl:text-xl">Web developer</span> based in
+          Serbia interested in building modern and innovative web applications with latest
+          technologies. I believe in lifelong learning and continuous improvement. Always trying to
+          do better.
         </p>
         <p class="mb-6">
           My primary focus is on front-end development, where I specialize in
@@ -44,7 +47,7 @@
 </template>
 
 <script setup lang="ts">
-import myimg from '@/assets/img/me.png'
+import myimg from '/img/me.png'
 </script>
 
 <style scoped></style>
