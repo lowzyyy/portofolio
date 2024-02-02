@@ -1,9 +1,10 @@
 <template>
-  <section>
+  <section class="md:mb-10">
     <h2 class="text-2xl 3xl:text-3xl mb-4">
-      Recent <span class="text-blue-300">projects</span> (from older to newer)
+      Recent <span class="text-blue-300">projects</span> (from newer to older)
     </h2>
-    <ProjectItem v-for="item in projects" :info="item"> </ProjectItem>
+    <ProjectItem v-for="(item, index) in projects.reverse()" :key="index" :info="item">
+    </ProjectItem>
   </section>
   <button
     @click="goTopHandler"

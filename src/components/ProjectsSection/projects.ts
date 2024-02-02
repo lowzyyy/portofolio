@@ -47,6 +47,22 @@ export const projects: TProjectItem[] = [
     text: 'Exploring the world of AstroJS 🚀, a multipage application framework that ships zero JavaScript by default. It features file-based routing and provides a very pleasant experience.',
     link: 'https://findanime.vercel.app/',
     githubLink: 'https://github.com/lowzyyy/findAnime-front'
+  },
+  {
+    title: 'Reddit light',
+    technologies: [
+      'VueJS',
+      'ExpressJS',
+      'TypeScript',
+      'JsonWebToken',
+      'Docker',
+      'PostgreSQL',
+      'Pinia'
+    ],
+    image: '/img/projectImgs/reddit-clone.png',
+    text: 'Project showcasing VueJS with the Composition API. The back-end is deployed via Docker and includes custom authentication using JsonWebToken. All data is stored persistently in PostgreSQL, and global state management is implemented with Pinia.',
+    link: 'https://redditlightclone.netlify.app',
+    githubLink: 'https://github.com/lowzyyy/reddit-clone-front'
   }
 ]
 
@@ -66,5 +82,9 @@ export const techColors: ITechColors = {
   TypeScript: 'bg-rose-400',
   AstroJS: 'bg-amber-200',
   MPA: 'bg-slate-200',
-  'FB Realtime DB': 'bg-yellow-400'
+  VueJS: 'bg-teal-300',
+  JsonWebToken: 'bg-fuchsia-400',
+  Docker: 'bg-sky-300',
+  Pinia: 'bg-yellow-300',
+  'FB Realtime DB': 'bg-yellow-600'
 }
