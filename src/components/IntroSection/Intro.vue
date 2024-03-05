@@ -36,7 +36,8 @@
             >NodeJS</a
           >
           with Express. This expertise comes in handy as many of my projects involve APIs to handle
-          specific data.
+          specific data.<br />
+          Currently in the process of learning <span class="text-violet-400">C#</span> and ASP.NET.
         </p>
       </article>
     </div>

@@ -63,6 +63,14 @@ export const projects: TProjectItem[] = [
     text: 'Project showcasing VueJS with the Composition API. The back-end is deployed via Docker and includes custom authentication using JsonWebToken. All data is stored persistently in PostgreSQL, and global state management is implemented with Pinia.',
     link: 'https://redditlightclone.netlify.app',
     githubLink: 'https://github.com/lowzyyy/reddit-clone-front'
+  },
+  {
+    title: 'Minee Online',
+    technologies: ['VueJS', 'TypeScript', 'Web Worker', 'HeadlessUI'],
+    image: '/img/projectImgs/minee-timer.png',
+    text: 'I enjoyed the Minee timer so much that I created an online version of it. Since timers pause when switching tabs, it was a great opportunity to experiment with web workers.',
+    link: 'https://minee-online.netlify.app',
+    githubLink: 'https://github.com/lowzyyy/minee-timer'
   }
 ]
 
@@ -86,5 +94,7 @@ export const techColors: ITechColors = {
   JsonWebToken: 'bg-fuchsia-400',
   Docker: 'bg-sky-300',
   Pinia: 'bg-yellow-300',
-  'FB Realtime DB': 'bg-yellow-600'
+  HeadlessUI: 'bg-pink-300',
+  'FB Realtime DB': 'bg-yellow-600',
+  'Web Worker': 'bg-gray-200'
 }
