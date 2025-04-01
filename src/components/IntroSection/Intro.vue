@@ -19,6 +19,13 @@
           do better.
         </p>
         <p class="mb-6">
+          I have 1 year of
+          <span class="font-bold text-blue-200 xs:text-lg 3xl:text-xl">experience</span> working on
+          various projects with Next.js, NestJS, AWS Lambda, Puppeteer, jQuery, and Firebase. I've
+          built and optimized web applications, worked with serverless functions, automated tasks,
+          and handled data efficiently.
+        </p>
+        <p class="mb-6">
           My primary focus is on front-end development, where I specialize in
           <a href="https://react.dev/" class="text-cyan-400 hover:text-cyan-300 font-bold"
             >ReactJS</a
@@ -35,9 +42,8 @@
           <a href="https://nodejs.org" class="text-teal-400 hover:text-teal-300 font-bold"
             >NodeJS</a
           >
-          with Express. This expertise comes in handy as many of my projects involve APIs to handle
-          specific data.<br />
-          Currently in the process of learning <span class="text-violet-400">C#</span> and ASP.NET.
+          with Express/Nest. This expertise comes in handy as many of my projects involve APIs to
+          handle specific data.<br />
         </p>
       </article>
     </div>
